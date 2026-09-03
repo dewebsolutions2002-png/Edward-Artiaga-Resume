@@ -60,7 +60,7 @@ export default function Home() {
     <main className="site-shell">
       <header className="topbar">
         <button className="brand-lockup" onClick={() => navigate("profile")} aria-label="Back to profile">
-          <img src="/manus-storage/edward-mark_51c20599.png" alt="Edward Artiaga mark" />
+          <span className="brand-mark" aria-hidden="true">EA</span>
           <span>EA<span className="brand-dot">.</span></span>
         </button>
         <button className="menu-trigger" onClick={() => setMenuOpen((value) => !value)} aria-expanded={menuOpen} aria-label="Toggle navigation">
@@ -98,7 +98,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="hero-visual">
-                <img src="/manus-storage/support-hero_e3f992d4.jpg" alt="Abstract support operations desk" />
+                <img src="/images/support-hero.jpg" alt="Abstract support operations desk" />
                 <span className="visual-caption">01 / Resolve with clarity</span>
               </div>
             </div>
@@ -137,12 +137,12 @@ export default function Home() {
             <div className="section-label"><span>05</span><span>Education &amp; wins</span></div>
             <div className="section-body two-up">
               <div><h2>Built on<br /><em>curiosity.</em></h2><div className="education-item"><p className="kicker">Technological University of the Philippines</p><p>Tertiary Level (Undergraduate)</p><span>2022—2023</span></div><div className="education-item"><p className="kicker">Parañaque National High School — Main</p><p>High School Diploma</p><span>2019—2021</span></div></div>
-              <div className="achievement-card"><img src="/manus-storage/chess-detail_cec39c73.jpg" alt="Chess knight representing strategic thinking" /><div className="achievement-copy"><p className="kicker">Selected achievements</p><p>Chess Master — awarded by the Association of Chess Masters.</p><p>Promoted to Supervisor (“Jump”) — recognized and advanced into a supervisory role.</p></div></div>
+              <div className="achievement-card"><img src="/images/chess-detail.jpg" alt="Chess knight representing strategic thinking" /><div className="achievement-copy"><p className="kicker">Selected achievements</p><p>Chess Master — awarded by the Association of Chess Masters.</p><p>Promoted to Supervisor (“Jump”) — recognized and advanced into a supervisory role.</p></div></div>
             </div>
           </section>
 
           <section id="contact" className="contact-section">
-            <div className="contact-art"><img src="/manus-storage/support-detail_735c04d9.jpg" alt="Abstract path through complex cases" /></div>
+            <div className="contact-art"><img src="/images/support-detail.png" alt="Abstract path through complex cases" /></div>
             <div className="contact-copy"><p className="kicker">06 / Contact</p><h2>Let’s make the<br /><em>next step clear.</em></h2><p>If you’re looking for someone who can bring composure, speed, and sound judgment to complex support moments, I’d be glad to hear from you.</p><div className="contact-actions"><a href="mailto:eartiaga65@gmail.com" className="contact-link"><Mail size={17} /> eartiaga65@gmail.com</a><a href="tel:+639762773260" className="contact-link"><Phone size={17} /> +63 976 277 3260</a></div></div>
           </section>
 
