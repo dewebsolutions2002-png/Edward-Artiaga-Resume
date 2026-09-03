@@ -60,7 +60,6 @@ export default function Home() {
     <main className="site-shell">
       <header className="topbar">
         <button className="brand-lockup" onClick={() => navigate("profile")} aria-label="Back to profile">
-          <span className="brand-mark" aria-hidden="true">EA</span>
           <span>EA<span className="brand-dot">.</span></span>
         </button>
         <button className="menu-trigger" onClick={() => setMenuOpen((value) => !value)} aria-expanded={menuOpen} aria-label="Toggle navigation">
